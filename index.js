@@ -17,7 +17,7 @@ function Football() {
     //The following command will not work, so if you pass variable directly in OnClick it will not work.
     //<button onClick={sohaib}>Take the shot!</button>
 
-    //Th following command will also not work, because of two reason: 1. It will be executed only one 2. Even that one time executation will be before your click
+    //The following command will also not work, because of two reason: 1. It will be executed only once 2. Even that one time executation will be before your first click
     //<button onClick={shot("Great")}>Take the shot!</button>,
 
     //The following command will work.
